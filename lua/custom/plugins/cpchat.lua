@@ -8,7 +8,7 @@ local prompts = {
   FixError = 'Please explain the error in the following text and provide a solution.',
   BetterNamings = 'Please provide better names for the following variables and functions.',
   Documentation = 'Please provide documentation for the following code.',
-  DocStrings = 'Write docstrings for all public modules, functions, classes, and methods with the Sphinx convention',
+  DocStrings = 'Write docstrings for all public modules, functions, classes, and methods with the Sphinx convention. Please keep the original code intact and include it in your response.',
   -- Text related prompts
   Summarize = 'Please summarize the following text.',
   Spelling = 'Please correct any grammar and spelling errors in the following text.',
